@@ -1,0 +1,69 @@
+doctype html
+html
+  include templates/header.pug
+    body
+      include templates/navbar.pug
+      include templates/hero.pug
+      //Body Copy
+      section.container
+        h2.spacer Our Cookies
+        div.row
+          div.offset-sm-1.col-sm-12.col-lg-3.order-lg-2
+            h5 About Shooky's Cookies
+            p.bodyCopy.spacer Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus metus quis eleifend vestibulum. Integer in pulvinar arcu. Phasellus vitae felis id turpis efficitur.
+            h5 Our Recipes
+            p.bodyCopy Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus metus quis eleifend vestibulum. Integer in pulvinar arcu.
+          div.col-sm-12.col-lg-8.order-lg-1
+            div.row
+              div.col-lg-6.col-md-6
+                img.cookieImages(src='images/jade-wulfraat-96023-unsplash.jpg')
+                div.imageBox
+                  span.imageBoxText Chocolate Chip Cookies
+              div.col-lg-6.col-md-6
+                img.cookieImages(src='images/mira-bozhko-456962-unsplash.jpg')
+                div.imageBox
+                  span.imageBoxText More than Vanilla
+            div.row
+              div.col-lg-6.col-md-6
+                img.cookieImages(src='images/brooke-lark-261287-unsplash.jpg')
+                div.imageBox
+                  span.imageBoxText Sugar and Spice
+              div.col-lg-6.col-md-6
+                img.cookieImages(src='images/olenka-kotyk-25357-unsplash.jpg')
+                div.imageBox
+                  span.imageBoxText Almond Cookies
+      section.container
+        h2 Crumbs for Your Thoughts
+        h5.spacer From the Blog
+        div.row
+          div.col-12.col-sm-3.col-lg-4
+            hr.rule
+            br
+            p
+              h4.text-color-purple New Location on Grand Street
+              span.bodyCopy Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus metus.
+              br
+              br
+              a(href="#") Read More
+          div.col-12.col-sm-3.col-lg-4
+            hr.rule
+            br
+            p
+              h4.text-color-purple We've Made the Perfect Cookie
+              span.bodyCopy Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus metus.
+              br
+              br
+              a(href="#") Read More
+          div.col-12.col-sm-3.col-lg-4
+            hr.rule
+            br
+            p
+              h4.text-color-purple A Special Treat for the Long Weekend
+              span.bodyCopy Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus metus. 
+              br
+              br
+              a(href="#") Read More
+          div.spacer
+          br
+      //Body Copy End
+      include templates/footer.pug
